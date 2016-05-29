@@ -1,3 +1,5 @@
+#include "handler.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,11 +10,11 @@
 #include <pthread.h>
 #include <sys/wait.h>
 #include <mysql/mysql.h>
+
+#include "envirment.h"
+#include "exit.h"
 #include "global.h"
 #include "logger.h"
-#include "envirment.h"
-#include "handler.h"
-#include "exit.h"
 
 static struct handle_context context;
 extern MYSQL * g_mysql_conn;

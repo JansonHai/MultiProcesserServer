@@ -4,10 +4,11 @@
 #include <signal.h>
 #include <unistd.h>
 #include <errno.h>
-#include "global.h"
-#include "logger.h"
+
 #include "envirment.h"
 #include "exit.h"
+#include "global.h"
+#include "logger.h"
 #include "server.h"
 
 static void signal_handler(int s)

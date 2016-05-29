@@ -1,3 +1,5 @@
+#include "server.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,12 +12,12 @@
 #include <mysql/mysql.h>
 #include <list>
 #include <errno.h>
-#include "server.h"
-#include "global.h"
-#include "logger.h"
+
 #include "envirment.h"
 #include "exit.h"
+#include "global.h"
 #include "handler.h"
+#include "logger.h"
 
 static int lisetn_fd = -1;
 extern bool g_exit_flag;
