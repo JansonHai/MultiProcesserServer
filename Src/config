@@ -1,6 +1,0 @@
-#配置说明
-#server_port 服务器监听端口 (默认：6666)
-#log_path log的目录  (默认: ./server.log)  
-
-server_port = 6666
-log_path = ./log/server.log
